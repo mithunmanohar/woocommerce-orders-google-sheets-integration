@@ -8,7 +8,7 @@ Below are the steps to set up the sheet:
 
 # 1. Set up WooCommerce REST API in your wordpress website:
 
-Steps can be found here : https://github.com/woocommerce/woocommerce/wiki/Getting-started-with-the-REST-API#generate-keys . You need to provide the API key and API secret generated from this step to be provided in the Google sheet.
+Steps can be found here : https://github.com/woocommerce/woocommerce/wiki/Getting-started-with-the-REST-API#generate-keys . You need to provide the API key and API secret generated from this step in the Google sheet.
 
 # 2. Click on the google sheets link : 
 
