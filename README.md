@@ -10,7 +10,7 @@ Below are the steps to set up the sheet:
 
 Steps can be found here: https://github.com/woocommerce/woocommerce/wiki/Getting-started-with-the-REST-API#generate-keys . You need to provide the API key and API secret generated from this step in the Google sheet.
 
-# 2. Click on the google sheets link : 
+# 2. Click on the google sheets link : https://goo.gl/jAqPMz
 
 The sheet is view only - request an edit permission - The sheet is kept as read only so that no one makes changes in the original sheet / accidentally enter their API credentials in this sheet accessible to the public. YOU SHOULD ALWAYS KEEP YOUR API CREDENTIALS as secret.
 
