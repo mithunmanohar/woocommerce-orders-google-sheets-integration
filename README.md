@@ -18,7 +18,7 @@ IMPORTANT: Once you get the edit permission, go to File > Make a copy and save t
 
 # 3. Set up your google sheet
 
-Enter your store URL (Should be in the format https://yourstore.com ), API Key, API secret in the sheet and click on the Update button. The google sheets will ask for permission for the app to run. It will show the app as unverified - This is because it is tryingy to access an external url - the site you have given in the sheet in this case. Please feel free to take a look at the code in script editor to see what the sheet is doing in case you are in doubt. 
+Enter your store URL (Should be in the format https://yourstore.com ), API Key, API secret in the sheet and click on the Update button. The google sheets will ask for permission for the app to run. The sheet requires permission to 1. View and manage your spreadsheets in Google Drive, 2. Connect to an external service. It will show the app as unverified - This is because it is tryingy to access an external url - the site you have given in the sheet in this case. Click on Adavanced and proceed. Please feel free to take a look at the code in script editor to see what the sheet is doing in case you are in doubt. 
 If every thing is set up correctly, the sheet will update with the order details from your woocommerce store.
 
 # 4. Set up automatic sync 
