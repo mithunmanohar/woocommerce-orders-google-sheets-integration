@@ -5,7 +5,7 @@ The sheet uses the WooCommerce Rest API to connect to the WooCommerce store and 
 
 Below are the steps to set up the sheet:
 
-if you face any issues, raise an issues/ have any suggestions to improve this tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
+if you face any issues or have any suggestions to improve this tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
 
 # 1. Set up WooCommerce REST API in your WordPress website:
 
