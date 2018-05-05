@@ -1,5 +1,5 @@
 # woocommerce-google-sheets-integration
-Sync order data from your WooCommerce store to Google sheets automatically. A free alternative to Zapier-WooCommerce integration.
+This google sheet syncs order data from your WooCommerce store to Google sheets automatically. A free alternative to Zapier-WooCommerce order integration.
 
 The sheet uses the WooCommerce Rest API to connect to the WooCommerce store and sync the order data to the google sheet. The sheet will fetch order details like First Name, Last Name, Address, Post code, City, Country, Phone, Email, Price, Payment method, Items, Quantity  OrderId, Notes, Date.
 
