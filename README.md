@@ -7,8 +7,6 @@ PS: If you are looking for advanced order integrations and features, please chec
 
 Below are the steps to set up the sheet:
 
-if you face any issues or have any suggestions to improve this tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
-
 # 1. Set up WooCommerce REST API in your WordPress website:
 
 Steps can be found here: https://github.com/woocommerce/woocommerce/wiki/Getting-started-with-the-REST-API#generate-keys . You need to provide the API key and API secret generated from this step in the Google sheet.
@@ -36,3 +34,4 @@ On that page, click on Edit > Current Projects Trigger. In the pop-up, give the 
 
 The field Fetch Data interval (hrs) can be used to control how much data will be fetched during each refresh. If you set this 5 hours - All the order details from last 5 hours will be fetched. Rest assured, only unique orders will be shown on the sheet.
 
+if you face any issues or have any suggestions to improve this tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
