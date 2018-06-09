@@ -3,7 +3,7 @@ This google sheet syncs order data from your WooCommerce store to Google sheets 
 
 The sheet uses the WooCommerce Rest API to connect to the WooCommerce store and sync the order data to the google sheet. The sheet will fetch order details like First Name, Last Name, Address, Post code, City, Country, Phone, Email, Price, Payment method, Items, Quantity  OrderId, Notes, Date.
 
-PS: If you are looking for advanced order integrations and features, please check out the zapier plugin for woo-commerce store here: https://goo.gl/8KepXA
+PS: If you are looking for an easy to setup advanced order integrations and features, please check out the zapier plugin for woo-commerce store <a href="https://goo.gl/8KepXA">here</a> or inbuilt reporting plugins <a href="https://goo.gl/spCPes">csv-export</a> or <a href="https://goo.gl/F8adgV">order-export</a> 
 
 Below are the steps to set up the sheet:
 
@@ -34,4 +34,4 @@ On that page, click on Edit > Current Projects Trigger. In the pop-up, give the 
 
 The field Fetch Data interval (hrs) can be used to control how much data will be fetched during each refresh. If you set this 5 hours - All the order details from last 5 hours will be fetched. Rest assured, only unique orders will be shown on the sheet.
 
-if you face any issues or have any suggestions to improve this tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
+If you face any issues or have any suggestions to improve this woocommerce orders google sheets integration tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
