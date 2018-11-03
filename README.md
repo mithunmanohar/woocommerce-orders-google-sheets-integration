@@ -38,3 +38,5 @@ On that page, click on Edit > Current Projects Trigger. In the pop-up, give the 
 If you face any issues or have any suggestions to improve this woocommerce orders google sheets integration tool, create a ticket at https://github.com/mithunmanohar/woocommerce-orders-google-sheets-integration/issues
 
 Version V2 of the tool has additional features. If  you want to try out the v1 of this tool, check out https://goo.gl/jAqPMz
+
+Contributors to this project: @mithunmanohar, @petrfaitl
