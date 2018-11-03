@@ -1,7 +1,7 @@
 # woocommerce-google-sheets-integration
 This google sheet syncs order data from your WooCommerce store to Google sheets automatically. A free alternative to Zapier-WooCommerce order integration.
 
-The sheet uses the WooCommerce Rest API to connect to the WooCommerce store and sync the order data to the google sheet. The sheet will fetch order details like First Name, Last Name, Address, Post code, City, Country, Phone, Email, Price, Payment method, Items, Quantity  OrderId, Notes, Date.
+The sheet uses the WooCommerce Rest API v2 to connect to the WooCommerce store and sync the order data to the google sheet. The sheet will fetch order details like First Name, Last Name, Billing Address, Shipping address, Phone, Email, Price, Payment method, Items, Quantity  OrderId, Notes, Date, Refunds, Order key.
 
 PS: If you are looking for an easy to setup advanced order integrations and features, please check out the zapier plugin for woo-commerce store <a href="https://goo.gl/8KepXA">here</a> or inbuilt reporting plugins <a href="https://goo.gl/spCPes">csv-export</a> or <a href="https://goo.gl/F8adgV">order-export</a> 
 
@@ -20,8 +20,13 @@ IMPORTANT: Once you get the edit permission, go to File > Make a copy and save t
 
 # 3. Set up your google sheet
 
-Enter your store URL (Should be in the format https://yourstore.com ), API Key, API secret in the sheet and click on the Update button. The google sheets will ask for permission for the app to run. The sheet requires permission to 1. View and manage your spreadsheets in Google Drive, 2. Connect to an external service. It will show the app as unverified - This is because it is trying to access an external URL - the site you have given in the sheet in this case. Click on Advanced and proceed. Please feel free to take a look at the code in the script editor to see what the sheet is doing in case you are in doubt. 
+Enter your store URL (Should be in the format https://yourstore.com ), API Key, API secret, Date in the sheet and click on the Update button. The google sheets will ask for permission for the app to run. The sheet requires permission to 1. View and manage your spreadsheets in Google Drive, 2. Connect to an external service. It will show the app as unverified - This is because it is trying to access an external URL - the site you have given in the sheet in this case. Click on Advanced and proceed. Please feel free to take a look at the code in the script editor to see what the sheet is doing in case you are in doubt. 
 If everything is set up correctly, the sheet will update with the order details from your woo-commerce store.
+
+Changes: Update A6 (Fetch Data interval (hrs)) to Start Date and use a date (in B6) to mark the staring date of orders you're intrerested in.
+
+Update column titles in row 7 to the following:
+First Name	Last Name	Billing Address	Shipping Address	Phone	Email	Customer Notes	Payment method	Items	Quantity	Price	Discount	Refund Value	Total Order Value	Refund Reason	OrderId	Date Created	Date Modified	Status	Order Key
 
 # 4. Set up automatic order sync 
 
