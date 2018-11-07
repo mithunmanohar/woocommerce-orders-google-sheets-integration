@@ -22,7 +22,7 @@ function fetch_orders(sheet_name) {
     
 
 
-    var surl = website + "/wp-json/wc/v2/orders?consumer_key=" + ck + "&consumer_secret=" + cs + "&after=" + m; 
+    var surl = website + "/wp-json/wc/v2/orders?consumer_key=" + ck + "&consumer_secret=" + cs + "&after=" + m + "&per_page=100"; 
 
     var url = surl
     //Logger.log(url)
