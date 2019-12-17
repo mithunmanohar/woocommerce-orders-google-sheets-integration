@@ -63,7 +63,7 @@ function fetch_orders(sheet_name) {
 
         a = container.push(params[i]["billing"]["address_1"]+ " "+ params[i]["billing"]["postcode"]+ " "+ params[i]["billing"]["city"]);
 
-        a = container.push(params[i]["shipping"]["first_name"] + " "+ params[i]["shipping"]["last_name"]+" "+ params[i]["shipping"]["address_1"]+" "+params[i]["shipping"]["postcode"]+" "+params[i]["shipping"]["city"]+" "+params[i]["shipping"]["country"]); 
+        a = container.push(params[i]["shipping"]["first_name"] + " "+ params[i]["shipping"]["last_name"]+" "+ params[i]["shipping"]["address_1"]+" "+params[i]["shipping"]["postcode"]+" "+params[i]["shipping"]["city"]+" "+params[i]["shipping"]["state"]+" "+params[i]["shipping"]["country"]); 
 
         a = container.push(params[i]["billing"]["phone"]);
 
