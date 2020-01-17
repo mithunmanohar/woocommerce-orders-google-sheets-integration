@@ -104,7 +104,7 @@ function fetch_orders(sheet_name) {
       
         var refundItems = "";
       
-        var refundValue = 0;
+        var refundValue = 0.0;
       
         for (var r = 0; r < d; r++) {
           var item, item_f, value;
@@ -113,7 +113,7 @@ function fetch_orders(sheet_name) {
 
             value = params[i]["refunds"][r]["total"];
             
-            refundValue += parseInt(value);
+            refundValue += parseFloat(value);
 
             item_f = value +" - "+ item;
 
