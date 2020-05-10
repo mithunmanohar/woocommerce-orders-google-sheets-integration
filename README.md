@@ -41,6 +41,6 @@ Version V2 of the tool has additional features. If  you want to try out the v1 o
 
 Contributors to this project: @mithunmanohar, @petrfaitl
 
-If you find this tool useful, you can cosider buying me a coffee !
+If you find this tool useful, you can consider buying me a coffee !
 
 <a href="https://www.buymeacoffee.com/68smoil" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
