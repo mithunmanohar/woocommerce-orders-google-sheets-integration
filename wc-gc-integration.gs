@@ -138,6 +138,8 @@ function fetch_orders(sheet_name) {
         a = container.push(params[i]["status"]);
       
         a = container.push(params[i]["order_key"]);
+        
+           a = container.push(params[i]["CUSTOMFIELD"]);
 
 
         var doc = SpreadsheetApp.getActiveSpreadsheet();
